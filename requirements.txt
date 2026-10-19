@@ -1,0 +1,12 @@
+# Compatible package families; pip will resolve matching releases.
+# Tested Python target: 3.12, Windows VS Code.
+pandas
+huggingface_hub
+datasets
+langchain-core>=1,<2
+langchain-classic>=1,<2
+langchain-groq
+langchain-tavily
+python-dotenv
+streamlit>=1.45
+pytest

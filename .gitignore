@@ -1,0 +1,25 @@
+# Secrets and local Python environment
+.env
+.env.*
+!.env.example
+!.env.groq.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Generated raw dataset files and local audits
+# Re-create them via python scripts/step02_build_databases.py
+data/raw/
+data/step02_audit_report.json
+
+# Locally generated SQLite databases (rebuild for reproducibility)
+databases/*.db
+databases/*.db.tmp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
